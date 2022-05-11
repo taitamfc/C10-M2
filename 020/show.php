@@ -15,7 +15,7 @@ $stmt = $conn->query($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_OBJ);
 
-//fetchALL se tra ve du lieu nhieu hon 1 ket qua
+//fetch se tra ve duy nhất 1 ket qua
 $row = $stmt->fetch();
 
 ?>
