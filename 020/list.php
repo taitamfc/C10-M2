@@ -2,7 +2,7 @@
 include 'db.php';
 
 //cau truy van
-$sql = "SELECT * FROM `MATHANG`";
+$sql = "SELECT * FROM `c10_mat_hang`";
 
 //truyen cau truy van vao
 $stmt = $conn->query($sql);
