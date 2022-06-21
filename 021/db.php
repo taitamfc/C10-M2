@@ -1,4 +1,5 @@
 <?php
 $username = 'root';
 $password = '';
-$conn = new PDO('mysql:host=localhost;dbname=lr_ontap_sql', $username, $password);
+$database = 'lr_ontap_sql';
+$conn = new PDO('mysql:host=localhost;dbname='.$database, $username, $password);
